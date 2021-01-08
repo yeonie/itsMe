@@ -627,10 +627,10 @@ h3 {
         a {
             display: inline-block;
             @media #{$breakpoint-md} {
-                max-width: 150px;
+                max-width: 100px;
             }
             @media #{$breakpoint-xs} {
-                max-width: 150px;
+                max-width: 100px;
             }
         }
     }
@@ -1799,7 +1799,7 @@ h3 {
 
 /* :: 12.0 Project Post Area */
 
-.Project-post-area {
+.project-post-area {
     position: fixed;
     z-index: 9999;
     width: 480px;

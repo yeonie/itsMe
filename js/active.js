@@ -2,7 +2,7 @@
     'use strict';
 
     var browserWindow = $(window);
-    var ProjectPost = $('.Project-post-area');
+    var projectPost = $('.project-post-area');
 
     // :: 1.0 Preloader Active Code
     browserWindow.on('load', function () {
@@ -121,15 +121,15 @@
 
     // :: 11.0 niceScroll Active Code
     if ($.fn.niceScroll) {
-        $("#ProjectPost").niceScroll();
+        $("#projectPost").niceScroll();
     }
 
     // :: 12.0 Toggler Active Code
     $('#toggler').on('click', function () {
-        ProjectPost.toggleClass('on');
+        projectPost.toggleClass('on');
     });
     $('.close-icon').on('click', function () {
-        ProjectPost.removeClass('on');
+        projectPost.removeClass('on');
     });
 
 })(jQuery);

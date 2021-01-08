@@ -485,7 +485,7 @@ h3 {
   .header-area .logo-area {
     position: relative;
     z-index: 1;
-    padding: 50px 30px;
+    padding: 20px 10px;
     text-align: center; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .header-area .logo-area {
@@ -1543,7 +1543,7 @@ h3 {
     background-color: #b0c364; }
 
 /* :: 12.0 Project Post Area */
-.Project-post-area {
+.project-post-area {
   position: fixed;
   z-index: 9999;
   width: 480px;
@@ -1558,22 +1558,22 @@ h3 {
   -webkit-transition-duration: 800ms;
   transition-duration: 800ms; }
   @media only screen and (max-width: 767px) {
-    .Project-post-area {
+    .project-post-area {
       width: 320px;
       padding: 30px; } }
-  .Project-post-area .close-icon {
+  .project-post-area .close-icon {
     position: absolute;
     top: 30px;
     right: 30px;
     z-index: 100;
     font-size: 20px;
     cursor: pointer; }
-    .Project-post-area .close-icon:hover, .Project-post-area .close-icon:focus {
+    .project-post-area .close-icon:hover, .project-post-area .close-icon:focus {
       color: #b0c364; }
-  .Project-post-area h4 {
+  .project-post-area h4 {
     margin-bottom: 50px; }
     @media only screen and (max-width: 767px) {
-      .Project-post-area h4 {
+      .project-post-area h4 {
         font-size: 16px; } }
   @media only screen and (max-width: 767px) {
     .Project-post-area .single-blog-post.style-1 .blog-content {
