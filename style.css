@@ -1,6 +1,6 @@
 /* Master Stylesheet - 1.0 */
 /* :: 1.0 Import Fonts */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 /* :: 2.0 Import All CSS */
 @import url(css/bootstrap.min.css);
 @import url(css/classy-nav.css);
@@ -15,7 +15,7 @@
   padding: 0; }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Gugi', cursive;
   font-size: 14px; }
 
 h1,
@@ -24,13 +24,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Gugi', sans-serif;
   color: #272727;
   line-height: 1.3;
   font-weight: 600; }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Gugi', sans-serif;
   color: #7a7a7a;
   font-size: 14px;
   line-height: 2;
@@ -46,7 +46,7 @@ a:focus {
   color: #000000;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Gugi', sans-serif; }
 
 ul,
 ol {
@@ -1542,8 +1542,8 @@ h3 {
   .ingredients .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
     background-color: #b0c364; }
 
-/* :: 12.0 Project Post Area */
-.project-post-area {
+/* :: 12.0 treading Post Area */
+.treading-post-area {
   position: fixed;
   z-index: 9999;
   width: 480px;
@@ -1558,32 +1558,32 @@ h3 {
   -webkit-transition-duration: 800ms;
   transition-duration: 800ms; }
   @media only screen and (max-width: 767px) {
-    .project-post-area {
+    .treading-post-area {
       width: 320px;
       padding: 30px; } }
-  .project-post-area .close-icon {
+  .treading-post-area .close-icon {
     position: absolute;
     top: 30px;
     right: 30px;
     z-index: 100;
     font-size: 20px;
     cursor: pointer; }
-    .project-post-area .close-icon:hover, .project-post-area .close-icon:focus {
+    .treading-post-area .close-icon:hover, .treading-post-area .close-icon:focus {
       color: #b0c364; }
-  .project-post-area h4 {
+  .treading-post-area h4 {
     margin-bottom: 50px; }
     @media only screen and (max-width: 767px) {
-      .project-post-area h4 {
+      .treading-post-area h4 {
         font-size: 16px; } }
   @media only screen and (max-width: 767px) {
-    .Project-post-area .single-blog-post.style-1 .blog-content {
+    .treading-post-area .single-blog-post.style-1 .blog-content {
       padding-left: 15px; } }
-  .Project-post-area .single-blog-post.style-1 .blog-content .post-title {
+  .treading-post-area .single-blog-post.style-1 .blog-content .post-title {
     font-size: 16px; }
     @media only screen and (max-width: 767px) {
-      .Project-post-area .single-blog-post.style-1 .blog-content .post-title {
+      .treading-post-area .single-blog-post.style-1 .blog-content .post-title {
         font-size: 14px; } }
-  .Project-post-area.on {
+  .treading-post-area.on {
     right: 0; }
 
 /* :: 13.0 Contact Area CSS */
