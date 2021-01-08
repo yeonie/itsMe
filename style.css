@@ -1542,8 +1542,8 @@ h3 {
   .ingredients .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
     background-color: #b0c364; }
 
-/* :: 12.0 Treading Post Area */
-.treading-post-area {
+/* :: 12.0 Project Post Area */
+.Project-post-area {
   position: fixed;
   z-index: 9999;
   width: 480px;
@@ -1558,32 +1558,32 @@ h3 {
   -webkit-transition-duration: 800ms;
   transition-duration: 800ms; }
   @media only screen and (max-width: 767px) {
-    .treading-post-area {
+    .Project-post-area {
       width: 320px;
       padding: 30px; } }
-  .treading-post-area .close-icon {
+  .Project-post-area .close-icon {
     position: absolute;
     top: 30px;
     right: 30px;
     z-index: 100;
     font-size: 20px;
     cursor: pointer; }
-    .treading-post-area .close-icon:hover, .treading-post-area .close-icon:focus {
+    .Project-post-area .close-icon:hover, .Project-post-area .close-icon:focus {
       color: #b0c364; }
-  .treading-post-area h4 {
+  .Project-post-area h4 {
     margin-bottom: 50px; }
     @media only screen and (max-width: 767px) {
-      .treading-post-area h4 {
+      .Project-post-area h4 {
         font-size: 16px; } }
   @media only screen and (max-width: 767px) {
-    .treading-post-area .single-blog-post.style-1 .blog-content {
+    .Project-post-area .single-blog-post.style-1 .blog-content {
       padding-left: 15px; } }
-  .treading-post-area .single-blog-post.style-1 .blog-content .post-title {
+  .Project-post-area .single-blog-post.style-1 .blog-content .post-title {
     font-size: 16px; }
     @media only screen and (max-width: 767px) {
-      .treading-post-area .single-blog-post.style-1 .blog-content .post-title {
+      .Project-post-area .single-blog-post.style-1 .blog-content .post-title {
         font-size: 14px; } }
-  .treading-post-area.on {
+  .Project-post-area.on {
     right: 0; }
 
 /* :: 13.0 Contact Area CSS */

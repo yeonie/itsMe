@@ -2,7 +2,7 @@
     'use strict';
 
     var browserWindow = $(window);
-    var treadingPost = $('.treading-post-area');
+    var ProjectPost = $('.Project-post-area');
 
     // :: 1.0 Preloader Active Code
     browserWindow.on('load', function () {
@@ -121,15 +121,15 @@
 
     // :: 11.0 niceScroll Active Code
     if ($.fn.niceScroll) {
-        $("#treadingPost").niceScroll();
+        $("#ProjectPost").niceScroll();
     }
 
     // :: 12.0 Toggler Active Code
     $('#toggler').on('click', function () {
-        treadingPost.toggleClass('on');
+        ProjectPost.toggleClass('on');
     });
     $('.close-icon').on('click', function () {
-        treadingPost.removeClass('on');
+        ProjectPost.removeClass('on');
     });
 
 })(jQuery);
